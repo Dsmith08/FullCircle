@@ -48,11 +48,11 @@ body {
 /* search bar */
 .nav > li > .searchBar {
 	width: 250px;
-	margin: 50px auto;
+	margin: 40px auto;
 }
 
 .nav > li > .searchBar > .search {
-	padding: 8px 15px;
+	padding: 8px 5px;
 	background: rgba(50,50,50,0.2);
 	border: 0px solid #dbdbdb
 }
