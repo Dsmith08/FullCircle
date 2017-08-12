@@ -1,0 +1,100 @@
+/*--------Header-------------*/
+@font-face {
+	font-family: "Noot";
+	src: url(Altair-Bold-trial.ttf);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 20px;
+}
+
+ .nav {
+ 	position: relative;
+	background-color: #e6e6e6;
+	color: #ffffff;
+	list-style: none;
+	text-align: center;
+	padding: 5px 0 5px 0;
+	border-bottom: 10px solid black;
+	bottom: 30px;
+	font-size: 27px;
+	font-family: "Noot";
+    }
+
+ #picture {
+ 	position: relative;
+ 	top: 30px;
+ }
+
+.nav > li {
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.nav > li > a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.nav > li > a:hover {
+	color: #808080;
+}
+
+.nav > li > input {
+	width: 300px;
+}
+
+/* search bar */
+.nav > li > .searchBar {
+	width: 250px;
+	margin: 50px auto;
+}
+
+.nav > li > .searchBar > .search {
+	padding: 8px 15px;
+	background: rgba(50,50,50,0.2);
+	border: 0px solid #dbdbdb
+}
+
+.nav > li > .searchBar > .button {
+	position: relative;
+	padding: 6px 15px;
+	left: -8px;
+	border: 2px solid #207cca;
+	background-color: #207cca;
+	color: #fafafa;
+}
+
+.nav > li > .searchBar > .button:hover {
+	background-color: #fafafa;
+	color: #207cca
+}
+
+/*----------footer---------------*/
+
+footer nav {
+	background-color: #000000;
+	color: #ffffff;
+	list-style: none;
+	text-align: center;
+	padding: 5px 0 5px 0;
+	font-size: 20px;
+	font-family: "Noot";
+}
+
+.fnav > li {
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.fnav > li > a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.fnav > li > a:hover {
+	color: #808080;
+}
